@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hotel Booking</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cork Hotel Booking</h1>
+        <form>
+            <label for="check-in-date">Check-In Date:</label>
+            <input type="date" id="check-in-date" required>
+
+            <label for="check-out-date">Check-Out Date:</label>
+            <input type="date" id="check-out-date" required>
+
+            <label for="room-type">Room Type:</label>
+            <select id="room-type" required>
+                <option value="single">Single Room</option>
+                <option value="double">Double Room</option>
+                <option value="suite">Suite</option>
+            </select>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" min="1" required>
+
+            <a href="./Congrats.html"><button type="submit">Book Now</a></button>
+            
+        </form>
+        <footer>  <p class="copyright name">Eldict</p>
+        </footer>  
+    </div>
+</body>
+</html>
